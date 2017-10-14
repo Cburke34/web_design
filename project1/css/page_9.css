@@ -1,0 +1,92 @@
+body {    
+   background:  linear-gradient(to right, rgba(68, 222, 11, 0.5), rgba(230, 78, 78, 0.5));
+}
+
+#cont {
+    background-image:url(../images/grinch_background_2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+    left: 0px;
+    right: 0px;
+    width: 1100px;
+    height: 600px;
+    border-radius: 60%;
+    border: 5px solid rgb(245, 69, 69);
+    position: relative;
+    box-shadow: 0px 0px 10px 0px black;
+    transition: 0.5s;
+    overflow: hidden;
+}
+
+#cont:hover {
+    box-shadow: 0px 0px 20px 5px black;
+    transform: scale(1.1);
+}
+
+.images {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    position: absolute;
+    transition: 3.0s;
+}
+
+#cih {
+    background-color: rgba(103, 130, 203, 0.31);
+    width: 150px;
+    height: 210px;
+    left: 300px;
+    top: 300px;
+    transform: skewX(20deg);
+    border-radius: 100%;
+    transition: 1.0s;
+}
+
+#cih:hover {
+    background-image: url(../images/sally_2.png);
+    opacity: 0.7;
+}
+
+#cih:active {
+    opacity: 1;
+    transform: scale(1.3);
+}
+
+#geh {
+    background-image:url(../images/fish_cartoon.png);
+    width: 120px;
+    height: 150px;
+    left: 570px;
+    top: 50px;
+    transform: skewX(-20deg);
+    opacity: 0.05;
+}
+
+#geh:hover {
+    left: 400px;
+    top: 150px;
+    transform: scale(1.8);
+    opacity: 1.0;
+    z-index: 1;
+}
+
+#geh:active {
+    transform: scale(1.0) skewX(-20deg);
+    opacity: 1.0;
+}
+
+#gch {
+    width: 450px;
+    height: 300px;
+    left: 570px;
+    top: 350px;
+    transform: rotate(-15deg);
+    border-radius: 80%;
+}
+
+#gch:hover {
+    background-image:url(../images/grinch_image.png);
+    opacity: 0.4;
+}

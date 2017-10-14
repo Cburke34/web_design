@@ -1,0 +1,141 @@
+body {    
+   background-color: rgb(183, 241, 255);
+}
+
+#cont {
+    background-image:url(../images/whiteboard.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+    left: 0px;
+    right: 0px;
+    width: 900px;
+    height: 550px;
+    border-radius: 30%;
+    position: relative;
+    box-shadow: 0px 0px 10px 0px black;
+}
+
+#cont:hover {
+    box-shadow: 0px 0px 20px 5px black;
+}
+
+.images {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    position: absolute;
+    transition: 2.0s;
+}
+
+#cih {
+    background-image:url(../images/cat_in_hat_book_cover.jpg);
+    width: 150px;
+    height: 200px;
+    left: 100px;
+    top: 50px;
+    transform: rotate(-45deg);
+    box-shadow: 0px 0px 10px 0px rgb(255, 165, 0);
+}
+
+#cih:hover{
+    width: 200px;
+    height: 300px;
+    left: 105px;
+    top: 55px;
+    transform: rotate(-35deg);
+    z-index: 1;
+    box-shadow: 0px 0px 0px 0px transparent;
+}
+
+#cih:active{
+    width: 1000px;
+    height: 1000px;
+    background-color: transparent;
+    border-radius: 10%;
+}
+
+#geh {
+    background-image:url(../images/green_eggs_and_ham_book_cover.PNG);
+    width: 150px;
+    height: 200px;
+    left: 500px;
+    top: 140px;
+    transform: rotate(20deg);
+    box-shadow: 0px 0px 3px 0px rgb(0, 0, 255);
+}
+
+#geh:hover{
+    width: 220px;
+    height: 300px;
+    left: 510px;
+    top: 145px;
+    transform: rotate(10deg);
+    z-index: 1;
+    box-shadow: 0px 0px 0px 0px transparent;
+}
+
+#geh:active{
+    width: 1000px;
+    height: 1000px;
+    background-color: transparent;
+    left: 300px;
+    top: -20px;
+    border-radius: 10%;
+}
+
+#gch {
+    background-image:url(../images/grinch_book_cover.png);
+    width: 150px;
+    height: 200px;
+    left: 300px;
+    top: 250px;
+    transform: rotate(-25deg);
+    box-shadow: 0px 0px 15px 0px rgb(0, 128, 0);
+}
+
+#gch:hover{
+    width: 220px;
+    height: 300px;
+    left: 310px;
+    top: 240px;
+    transform: rotate(-15deg);
+    z-index: 1;
+    box-shadow: 0px 0px 0px 0px transparent;
+}
+
+#gch:active{
+    width: 1000px;
+    height: 1000px;
+    background-color: transparent;
+    left: 100px;
+    top: -50px;
+    border-radius: 10%;
+}
+
+#blue {
+    background-image:url(../images/pawprint.png);
+    width: 50px;
+    height: 100px;
+    left: 800px;
+    top: 350px;
+    transform: rotate(-50deg);
+}
+
+#blue:hover{
+    width: 100px;
+    height: 150px;
+    left: 810px;
+    top: 340px;
+    transform: rotate(-60deg);   
+}
+
+#blue:active{
+    width: 1000px;
+    height: 1000px;
+    background-color: transparent;
+    left: 0px;
+    top: -20px;
+    border-radius: 10%;
+}

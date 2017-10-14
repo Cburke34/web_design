@@ -1,0 +1,107 @@
+body {    
+   background-color: rgba(183, 177, 17, 0.5);
+}
+
+#cont {
+    background-image:url(../images/dr_suess_background_2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+    left: 0px;
+    right: 0px;
+    width: 1000px;
+    height: 600px;
+    border-radius: 50%;
+    border: 5px dashed orange;
+    position: relative;
+    box-shadow: 0px 0px 10px 0px black;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+#cont:hover {
+    box-shadow: 0px 0px 20px 5px black;
+    transform: scale(1.1);
+}
+
+.images {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    position: absolute;
+    transition: 1.0s;
+}
+
+#cih {
+    background-image:url(../images/footer-croc.png);
+    width: 600px;
+    height: 200px;
+    transform: rotate(15deg);
+    top: 100px;
+}
+
+#cih:hover {
+    width: 400px;
+    height: 130px;
+    transform: rotate(-10deg);
+    top: 200px;
+}
+
+#cih:active {
+    width: 500px;
+    height: 300px;
+    transform: rotate(-10deg);
+    top: 200px;
+}
+
+#geh {
+    background-image:url(../images/green_ham.jpg);
+    width: 600px;
+    height: 450px;
+    top: 100px;
+    left: 600px;
+    transform: rotate(30deg)
+}
+
+#geh:hover {
+    width: 400px;
+    height: 130px;
+    transform: rotate(10deg);
+    top: 200px;
+}
+
+#geh:active {
+    width: 500px;
+    height: 300px;
+    transform: rotate(10deg);
+    top: 200px;
+}
+
+
+
+
+#geh2 {
+    background-image:url(../images/green_eggs_and_ham_background_3.jpg);
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    top: 500px;
+    left: 300px;
+}
+
+#geh2:hover {
+    transform: scale(1.5);
+}
+
+#geh2:active {
+    width: 1000px;
+    height: 1000px;
+    transform: rotate(10deg);
+    left: 0px;
+    top: -100px;
+    
+        
+}
+
+

@@ -1,0 +1,43 @@
+#cont {
+    
+    margin: 0 auto;
+    width: 900px;
+    height: 1000px;
+    background-color: red;
+    position: relative;
+    
+}
+
+.col {
+    position: absolute;
+    width: 255;
+    background-color: rgba(10, 130, 130,.4);
+    top: 30px;
+    padding: 10px;
+    height: 650px;
+}
+
+#c1{
+    left: 25px;
+}
+
+#c2{
+    left: 315px;
+}
+
+#c3{
+    left: 605px;
+}
+
+#c3:hover{
+    box-shadow: 0px 0px 15px black;
+}
+
+#sp1{
+    color: whitesmoke;
+}
+
+#sp1:hover {
+    text-shadow: 0px 0px 15px white;
+    cursor: pointer;
+}

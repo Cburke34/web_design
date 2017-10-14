@@ -1,0 +1,94 @@
+body {    
+   background-color: rgb(107, 140, 248);
+}
+
+#cont {
+    background-image:url(../images/b_Clues_background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+    left: 0px;
+    right: 0px;
+    width: 900px;
+    height: 550px;
+    border-radius: 15%;
+    position: relative;
+    box-shadow: 0px 0px 10px 0px black;
+    overflow: hidden;
+    transition: 2.0s;
+}
+
+#cont:hover {
+    box-shadow: 0px 0px 20px 5px black;
+    transform: rotate(-5deg);
+}
+
+.images {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    position: absolute;
+    transition: 2.0s;
+}
+
+#gch {
+    background-image:url(../images/grinch_gif_start.jpg);
+    width: 125px;
+    height: 120px;
+    left: 695px;
+    top: -4px;
+    border-radius: 30%;
+}
+
+#gch:hover{
+    background-image:url(../images/grinch_gif.gif);
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 950px;
+    height: 560px;
+    border-radius: 0%;
+    z-index: 1;
+}
+
+#steve {
+    background-image:url(../images/steve.png);
+    width: 261px;
+    height: 217px;
+    left: 30px;
+    top: 360px;
+    transform: rotate(45%);
+}
+
+#steve:hover {
+    background-image:url(../images/steve_blues_clues.gif);
+    width: 810px;
+    height: 1000px;
+    left: 200px;
+    top: 50px;
+    transform: rotate(0deg);
+}
+
+
+#geh{
+    width: 100px;
+    height: 100px;
+    left: 675px;
+    top: 300px;
+}
+
+#geh:hover{
+    background-image:url(../images/green_eggs_and_ham.png);
+    width: 200px;
+    height: 220px;
+}
+
+#geh:active{
+    left: 900px;
+}
+
+
+
+
+

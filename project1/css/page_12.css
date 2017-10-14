@@ -1,0 +1,84 @@
+body {    
+   background-color: rgba(41, 186, 41, 0.92);
+}
+
+#cont {
+    background-image:url(../images/green_eggs_and_ham_background_3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+    left: 0px;
+    right: 0px;
+    width: 1050px;
+    height: 620px;
+    border-radius: 60%;
+    border: 5px dotted rgb(15, 162, 15);
+    position: relative;
+    box-shadow: 0px 0px 10px 0px black;
+    transition: 0.5s;
+    overflow: hidden;
+}
+
+#cont:hover {
+    box-shadow: 0px 0px 20px 5px black;
+    transform: skewX(10deg);
+}
+
+.images {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    position: absolute;
+}
+
+#geh {
+    background-image:url(../images/green_eggs_and_ham_5.png);
+    width: 650px;
+    height: 600px;
+    top: 200px;
+    left: -100px;
+    transform: rotate(70deg);
+    transition: 2.0s;
+    
+}
+
+#geh:hover {
+    transform: rotate(70deg) scale(1.2);
+}
+
+#cih {
+    background-image:url(../images/cat_in_hat_6.png);
+    width: 650px;
+    height: 700px;
+    left: 400px;
+    top: 300px;
+    transform: rotate(20deg);
+    transition: 2.0s;
+}
+
+#cih:hover {
+    left: 300px;
+    top: 270px;
+    transform: rotate(10deg);
+}
+
+#blue {
+    background-image:url(../images/pawprint.png);
+    width: 400px;
+    height: 400px;
+    left: 180px;
+    top: 20px;
+    transform: rotate(-50deg);
+    transition: 2.0s;
+}
+
+#blue:hover {
+    left: 220px;
+    top: 30px;
+    transform: rotate(-20deg);
+}
+
+#blue:active {
+    transform: scale(1.2);
+}

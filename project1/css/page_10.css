@@ -1,0 +1,94 @@
+body {    
+   background-color: rgba(41, 186, 41, 0.92);
+}
+
+#cont {
+    background-image:url(../images/dr_suess_background_3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+    left: 0px;
+    right: 0px;
+    width: 1050px;
+    height: 620px;
+    border-radius: 60%;
+    border: 5px dotted rgb(15, 162, 15);
+    position: relative;
+    box-shadow: 0px 0px 10px 0px black;
+    transition: 0.5s;
+    overflow: hidden;
+}
+
+#cont:hover {
+    box-shadow: 0px 0px 20px 5px black;
+    transform: skewX(5deg);
+}
+
+.images {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    position: absolute;
+    transition: 3.0s;
+}
+
+#geh {
+    background-image:url(../images/green_eggs_and_ham_4.png);
+    width: 300px;
+    height: 450px;
+    transform: skewY(10deg);
+    left: -200px;
+}
+
+#geh:hover {
+    transform: skewX(15deg);
+    left: 100px;
+    z-index: 1;
+}
+
+#geh:active {
+    transform: scale(1.3);
+}
+
+#blue {
+    background-image:url(../images/b_Clues_Blue_and_Mailbox.png);
+    width: 200px;
+    height: 120px;
+    left: 600px;
+    top: 320px;
+}
+
+#blue:hover {
+    transform: rotate(10deg) skewX(10deg) scale(1.3);
+}
+
+#blue:active {
+    transform: scale(1.9);
+    opacity: 0.2;
+}
+
+#cih {
+    background-image:url(../images/cat_in_hat_3.png);
+    width: 600px;
+    height: 900px;
+    left: 50px;
+    top: 320px;
+    opacity: 0.4;   
+}
+
+#cih:hover {
+    width: 300px;
+    height: 450px;
+    left: 150px;
+    top: 200px;
+    opacity: 1.0;
+    transform: rotate(10deg);
+}
+
+#cih:active {
+    transform: skewX(20deg);
+}
+
+
+

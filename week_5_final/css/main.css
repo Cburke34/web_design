@@ -1,0 +1,211 @@
+@font-face{
+    font-family: rainbow;
+    src: url(fonts/OvertheRainbow.ttf);
+}
+
+body {
+    background-color: rgba(13,13,13,1);
+}
+
+
+/*Left Side Coming Right*/
+#box1 {
+    margin: 5px;
+    width: 60px;
+    height: 340px;
+    background-color: rgba(78,103,88,1);
+    float: left;
+}
+
+#box2 {
+    margin: 5px;
+    width: 100px;
+    height: 230px;
+    background-color: rgba(211,191,187,1);
+    float: left;
+}
+
+#box3 {
+    margin: 5px;
+    width: 200px;
+    height: 100px;
+    background-color: rgba(142,121,108,1);
+    float: left;
+}
+
+#box4 {
+    margin: 5px;
+    width: 200px;
+    height: 50px;
+    background-color: rgba(96, 92, 89,1);
+    float: left;
+}
+
+#box5 {
+    margin: 5px;
+    width: 30px;
+    height: 240px;
+    background-color: rgba(78,103, 88,1);
+    float: left;
+}
+
+#box6 {
+    margin: 5px;
+    width: 100px;
+    height: 200px;
+    background-color: rgba(78,103, 88,1);
+    float: left;
+}
+
+#box7 {
+    margin: 5px;
+    width: 250px;
+    height: 200px;
+    background-color: rgba(255,183,183,1);
+    float: left;
+}
+
+#box8 {
+    margin: 5px;
+    width: 130px;
+    height: 250px;
+    background-color: rgba(165,207,165,1);
+    float: left;
+}
+
+/*Right Side Coming Left*/
+
+#boxR1 {
+    margin: 5px;
+    width: 250px;
+    height: 230px;
+    background-color: rgba(165,207,165,1);
+    float: right;
+}
+
+#boxR2 {
+    margin: 5px;
+    width: 150px;
+    height: 230px;
+    background-color: rgba(217,247,217,1);
+    float: right;
+}
+
+#boxR3 {
+    margin: 5px;
+    width: 100px;
+    height: 300px;
+    background-color: rgba(166,232,206,1);
+    float: right;
+}
+
+#boxR4 {
+    margin: 5px;
+    width: 100px;
+    height: 300px;
+    background-color: rgba(146,244,204,1);
+    float: right;
+}
+
+#boxR5 {
+    margin: 5px;
+    width: 30px;
+    height: 240px;
+    background-color: rgba(255,153,153,1);
+    float: right;
+}
+
+#boxR6 {
+    margin: 5px;
+    width: 30px;
+    height: 240px;
+    background-color: rgba(78,103, 88,1);
+    float: right;
+}
+
+#boxR7 {
+    margin: 5px;
+    width: 250px;
+    height: 400px;
+    background-color: rgba(255,234,225,1);
+    float: right;
+    font-family: "rainbow", "Arial", sans-serif;
+    font-size: 12pt;
+    color: rgba(255,242,0,1);
+    text-align: center;
+}
+
+#boxR8 {
+    margin: 5px;
+    width: 130px;
+    height: 30px;
+    background-color: rgba(173,241,173,1);
+    float: right;
+}
+
+/*More Tiles*/
+
+#boxA1 {
+    margin: 5px;
+    width: 60px;
+    height: 130px;
+    background-color: rgba(118,112,0,1);
+    float: left;
+}
+
+#boxA2 {
+    margin: 5px;
+    width: 100px;
+    height: 230px;
+    background-color: rgba(46, 82,0,1);
+    float: right;
+}
+
+#boxA3 {
+    margin: 5px;
+    width: 300px;
+    height: 130px;
+    background-color: rgba(76,0,76,1);
+    float: left;
+}
+
+#boxA4 {
+    margin: 5px;
+    width: 40px;
+    height: 100px;
+    background-color: rgba(131,9,131,1);
+    float: right;
+}
+
+#boxA5 {
+    margin: 5px;
+    width: 200px;
+    height: 100px;
+    background-color: rgba(168,160,1,1);
+    float: left;
+}
+
+#boxA6 {
+    margin: 5px;
+    width: 40px;
+    height: 130px;
+    background-color: rgba(136,129,0,1);
+    float: right;
+}
+
+#boxA7 {
+    margin: 5px;
+    width: 140px;
+    height: 200px;
+    background-color: rgba(72,86,0,1);
+    float: left;
+}
+
+#boxA8 {
+    margin: 5px;
+    width: 130px;
+    height: 150px;
+    background-color: rgba(109,131,0,1);
+    float: right;
+}
+

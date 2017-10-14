@@ -1,0 +1,90 @@
+body {    
+   background:  linear-gradient(to right, rgba(68, 222, 11, 0.5), rgba(230, 78, 78, 0.5));
+}
+
+#cont {
+    background-image:url(../images/grinch_background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+    left: 0px;
+    right: 0px;
+    width: 1100px;
+    height: 600px;
+    border-radius: 60%;
+    border: 5px solid rgb(245, 69, 69);
+    position: relative;
+    box-shadow: 0px 0px 10px 0px black;
+    transition: 0.5s;
+    overflow: hidden;
+}
+
+#cont:hover {
+    box-shadow: 0px 0px 20px 5px black;
+    transform: skewX(5deg);
+}
+
+.images {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    position: absolute;
+    transition: 3.0s;
+}
+
+#blue {
+    background-image:url(../images/b_Clues_Blue_with_Flowers.png);
+    width: 200px;
+    height: 210px;
+}
+
+#blue:hover {
+    transform: scale(2.0);
+}
+
+#cih {
+    background-image:url(../images/thing1_thing2.png);
+    width: 430px;
+    height: 300px;
+    top: 300px;
+    left: 550px;
+    transform: rotate(-10deg);
+}
+
+#cih:hover {
+    transform: skewX(10deg);
+    left: 570px;
+    top: 280px;
+}
+
+#cih:active {
+    transform: scale(1.3);
+    transition: 0.3s;
+}
+
+#gch {
+    background-image:url(../images/grinch_2.png);
+    width: 190px;
+    height: 300px;
+    top: -200px;
+    left: 400px;
+    transform: rotate(150deg);
+    opacity: 0;
+}
+
+#gch:hover {
+    width: 230px;
+    height: 350px;
+    top: 10px;
+    left: 430px;
+    transform: rotate(180deg);
+    opacity: 1.0;
+}
+
+#gch:active {
+    transform: scale(0.5);
+    opacity: 0.5
+}
+
+

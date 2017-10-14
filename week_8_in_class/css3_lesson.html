@@ -1,0 +1,170 @@
+<html>
+    
+    <head>
+        <style>
+            .container {
+                width: 1000px;
+                height: 600px;
+                margin: 0 auto;
+                position: relative;
+                background-color: #72ffff;
+                overflow: hidden;
+            }
+            
+            .menuBox {
+                position: absolute;
+                width: 200px;
+                height: 150px;
+                overflow: hidden;
+            }
+            
+            .menuBox > .whiteBox {
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                background-color: rgba(255, 255, 255, 0.6);
+                left: -100%;
+                opacity: 0;
+                transition: left 0.5s, opacity 2s, ;
+                -webkit-transition: left 0.5s, opacity 2s, -webkit-filter 1s;
+                -moz-transition: left 0.5s, opacity 2s, -moz-filter 1s;
+                -ms-transition: left 0.5s, opacity 2s, -ms-filter 1s;
+                filter: blur(20px);
+                -webkit-filter: blur(20px);
+                -moz-filter: blur(20px);
+                -ms-filter: blur(20px);
+                
+            }
+            
+            .menuBox:hover > .whiteBox {
+                left: 0px;
+                opacity: 1;
+                filter: blur(0px);
+                -webkit-filter: blur(0px);
+                -moz-filter: blur(0px);
+                -ms-filter: blur(0px);
+            }
+            
+            .topBox {
+                top: 100px;
+            }
+            
+            .botBox {
+                top: 300px;
+            }
+            
+            .leftBox {
+                left: 150px;
+            }
+            
+            .rightBox {
+                left: 500px;
+            }
+            
+            .rightMenu {
+                width: 200px;
+                height: 150px;
+                position: absolute;
+                background-color: rgb(224, 208, 14);
+                right: -180px;
+                transition: left 0.5s, opacity 2s, ;
+                -webkit-transition: right 0.5s, opacity 2s, -webkit-filter 1s;
+                -moz-transition: right 0.5s, opacity 2s, -moz-filter 1s;
+                -ms-transition: right 0.5s, opacity 2s, -ms-filter 1s;
+                
+            }
+            
+            .rightMenu > h2 {
+                color: rgb(255, 255, 255);
+                font-family: sans-serif;
+                
+            }
+            
+            .rightMenu:hover {
+                right: 0px;
+            }
+            
+            #rm1{
+                top: 100px;
+                
+            }
+            
+            #rm2{
+                top: 300px;
+                
+            }
+            
+            
+            #mb1{
+                background-color: rgb(232, 232, 136);
+            }
+            
+            #mb2{
+                background-color: rgb(242, 242, 88);
+            }
+            
+            #mb3{
+                background-color: rgb(165, 175, 50);
+            }
+            
+            #mb4{
+                background-color: rgb(214, 214, 70);
+            }
+            
+            h2{
+                text-align: center;
+                padding-top: 40px;
+            }
+            
+        </style>
+        
+        
+        
+        
+        
+    </head>
+    
+    <body>
+        
+        <div class="container">
+            
+            <div class="menuBox topBox leftBox" id="mb1">
+                <div class="whiteBox">
+                    <h2>Label 1</h2>
+                </div>
+            </div>
+            
+            <div class="menuBox topBox rightBox" id="mb2">
+                <div class="whiteBox">
+                    <h2>Label 2</h2>
+                </div>
+            </div>
+            
+            <div class="menuBox botBox leftBox" id="mb3">
+                <div class="whiteBox">
+                    <h2>Label 3</h2>
+                </div>
+            </div>
+            
+            <div class="menuBox botBox rightBox" id="mb4">
+                <div class="whiteBox">
+                    <h2>Label 4</h2>
+                </div>
+            </div>
+            
+            <div class="rightMenu" id="rm1">
+            
+                <h2>Right Menu 1</h2>
+                
+            </div>
+            
+            <div class="rightMenu" id="rm2">
+            
+                <h2>Right Menu 2</h2>
+                
+            </div>
+            
+        </div>
+        
+    </body>
+</html>

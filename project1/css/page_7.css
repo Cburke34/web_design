@@ -1,0 +1,84 @@
+body {    
+   background-color: rgba(183, 177, 17, 0.5);
+}
+
+#cont {
+    background-image:url(../images/dr_suess_background_4.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+    left: 0px;
+    right: 0px;
+    width: 1000px;
+    height: 600px;
+    border-radius: 50%;
+    border: 5px dashed orange;
+    position: relative;
+    box-shadow: 0px 0px 10px 0px black;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+#cont:hover {
+    box-shadow: 0px 0px 20px 5px black;
+    transform: scale(1.1);
+}
+
+.images {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    position: absolute;
+    transition: 3.0s;
+}
+
+#salt {
+    background-image:url(../images/b_Clues_Mr._Salt.png);
+    width: 200px;
+    height: 250px;
+    left: 350px;
+    top: 200px;
+    transform: rotate(15deg);
+}
+
+#salt:hover{
+    width: 230px;
+    height: 300px;
+    transform: rotate(25deg);
+}
+
+#salt:active{
+    background-image:url(../images/b_Clues_Mr._Salt_2.png);
+    transform: rotate(20deg);
+    transition: 0.5s;
+}
+
+#cih {
+    background-image:url(../images/fox_Socks.png);
+    width: 250px;
+    height: 460px;
+    transform: rotate(-10deg);
+    top: 100px;
+}
+
+#cih:hover {
+    transform: scaleX(-1);
+}
+
+#gch {
+    background-image:url(../images/grinchs_dog_2.gif);
+    width: 240px;
+    height: 180px;
+    transform: rotate(10deg);
+    top: 200px;
+    left: 700px;
+    border-radius: 20%;
+}
+
+#gch:hover {
+    transform: scale(1.5);
+    top: 250px;
+    left: 600px;
+    border-radius: 40%;
+}

@@ -1,0 +1,96 @@
+body {    
+   background-color: rgb(107, 140, 248);
+}
+
+#cont {
+    background-image:url(../images/green_crayon.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    margin: 0 auto;
+    left: 0px;
+    right: 0px;
+    width: 900px;
+    height: 550px;
+    border-radius: 15%;
+    position: relative;
+    box-shadow: 0px 0px 10px 0px black;
+    overflow: hidden;
+    transition: 2.0s;
+}
+
+#cont:hover {
+    box-shadow: 0px 0px 20px 5px black;
+    transform: rotate(10deg);
+}
+
+.images {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    position: absolute;
+    transition: 2.0s;
+}
+
+#cih {
+    background-image:url(../images/Cat_in_hat_hat.png);
+    width: 520px;
+    height: 760px;
+    left: 600px;
+    top: 500px;
+    transform: rotate(-30deg);
+    z-index: 1;
+}
+
+#cih:hover {
+    width: 520px;
+    height: 760px;
+    left: 200px;
+    top: 100px;
+    transform: rotate(-10deg);
+}
+
+#cih:active {
+    width: 600px;
+    height: 800px;
+    left: 250px;
+    top: 0px;
+    transform: rotate(10deg);
+    opacity: 0.1;
+}
+
+#gch {
+    background-image:url(../images/grinch_hat.png);
+    width: 130px;
+    height: 180px;
+    left: 330px;
+    top: -60px;
+    transform: rotate(-5deg);
+}
+
+#gch:hover {
+    background-image:url(../images/grinch_dog_1.gif);
+    width: 130px;
+    height: 180px;
+    left: 340px;
+    top: -30px;
+    transform: rotate(-45deg);
+}
+
+#geh {
+    background-image:url(../images/green_eggs_horton.png);
+    width: 400px;
+    height: 600px;
+    left: -70px;
+    top: -90px;
+    transform: rotate(-5deg);
+}
+
+#geh:hover {
+    transform: skewX(-10deg);
+}
+
+#geh:active{
+    transform: skewX(-10deg) scale(1.2);
+}
+

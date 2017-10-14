@@ -1,0 +1,171 @@
+body {
+    background-color: rgba(234,214,209,1)
+}
+
+/*Starting top left:*/
+#boxL1 { 
+    margin: 5px;
+    background-color: rgba(150,143,158,1);
+    position: fixed;
+    width: 700px;
+    height: 700px;
+    left: 10px;
+}
+
+#boxL2 { 
+    margin: 5px;
+    background-color: rgba(130,123,138,0.9);
+    position: fixed;
+    width: 700px;
+    height: 700px;
+    left: 20px;
+}
+
+#boxL3 { 
+    margin: 5px;
+    background-color: rgba(110,103,118,0.8);
+    position: fixed;
+    width: 700px;
+    height: 700px;
+    left: 30px;
+}
+
+#boxL4 { 
+    margin: 5px;
+    background-color: rgba(90,83,98,0.7);
+    position: fixed;
+    width: 700px;
+    height: 700px;
+    left: 40px;
+}
+
+#boxL5 { 
+    margin: 5px;
+    background-color: rgba(70,63,78,0.6);
+    position: fixed;
+    width: 700px;
+    height: 700px;
+    left: 50px;
+}
+
+#boxL6 { 
+    margin: 5px;
+    background-color: rgba(50,43,58,0.5);
+    position: fixed;
+    width: 700px;
+    height: 700px;
+    left: 60px;
+}
+
+
+/*Starting top right:*/
+
+#boxR1 { 
+    margin: 5px;
+    background-color: rgba(150,143,158,1);
+    position: fixed;
+    width: 700px;
+    height: 700px;
+    right: 10px;
+}
+
+#boxR2 { 
+    margin: 5px;
+    background-color: rgba(130,123,138,0.9);
+    position: fixed;
+    width: 700px;
+    height: 700px;
+    right: 20px;
+}
+
+#boxR3 { 
+    margin: 5px;
+    background-color: rgba(110,103,118,0.8);
+    position: fixed;
+    width: 700px;
+    height: 700px;
+    right: 30px;
+}
+
+#boxR4 { 
+    margin: 5px;
+    background-color: rgba(90,83,98,0.7);
+    position: fixed;
+    width: 700px;
+    height: 700px;
+    right: 40px;
+}
+
+#boxR5 { 
+    margin: 5px;
+    background-color: rgba(70,63,78,0.6);
+    position: fixed;
+    width: 700px;
+    height: 700px;
+    right: 50px;
+}
+
+#boxR6 { 
+    margin: 5px;
+    background-color: rgba(50,43,58,0.5);
+    position: fixed;
+    width: 700px;
+    height: 700px;
+    right: 60px;
+}
+
+/*Starting interior layers right*/
+
+#boxS1 { 
+    margin: 5px;
+    background-color: rgba(193,192,166,1);
+    position: fixed;
+    width: 700px;
+    height: 700px;
+    right: 10px;
+}
+
+#boxS2 { 
+    margin: 5px;
+    background-color: rgba(193,192,166,1);
+    position: fixed;
+    width: 700px;
+    height: 700px;
+    right: 20px;
+}
+
+#boxS3 { 
+    margin: 5px;
+    background-color: rgba(193,192,166,1);
+    position: fixed;
+    width: 700px;
+    height: 700px;
+    right: 30px;
+}
+
+#boxS4 { 
+    margin: 5px;
+    background-color: rgba(193,192,166,1);
+    position: fixed;
+    width: 700px;
+    height: 700px;
+    right: 40px;
+}
+
+#boxS5 { 
+    margin: 5px;
+    background-color: rgba(193,192,166,1);
+    position: fixed;
+    width: 700px;
+    height: 700px;
+    right: 50px;
+}
+
+#boxS6 { 
+    margin: 5px;
+    background-color: rgba(193,192,166,1);
+    position: fixed;
+    width: 700px;
+    height: 700px;
+    right: 60px;
+}

@@ -1,0 +1,40 @@
+@font-face{
+    font-family: caviar;
+    src: url(fonts/CaviarDreams.ttf);
+}
+
+body {
+    color: blue;
+}
+
+#box1 {
+    width: 300px;
+    height: 150px;
+    background-color: rgb(33, 134, 199);
+}
+
+.boxes {
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+
+#box2 {
+    background-color: aquamarine;
+}
+
+#box3 {
+    overflow: hidden;
+    color: chartreuse;
+    font-family: "caviar", "sans-serif";
+}
+
+#box4 {
+
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-size: 1.5em;
+    /* font size oh ya */
+    font-weight: 900;
+/*                font-kerning: 20px*/
+    letter-spacing: 15px;
+}
